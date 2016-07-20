@@ -12,6 +12,7 @@
 		2B7DE9E31D3FA85E00E4F84B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7DE9E11D3FA85E00E4F84B /* Main.storyboard */; };
 		2B7DE9E51D3FA85E00E4F84B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7DE9E41D3FA85E00E4F84B /* Assets.xcassets */; };
 		2B7DE9E81D3FA85E00E4F84B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7DE9E61D3FA85E00E4F84B /* LaunchScreen.storyboard */; };
+		2B7DE9F01D4004E600E4F84B /* TsumCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7DE9EF1D4004E500E4F84B /* TsumCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2B7DE9E41D3FA85E00E4F84B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B7DE9E71D3FA85E00E4F84B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B7DE9E91D3FA85E00E4F84B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B7DE9EF1D4004E500E4F84B /* TsumCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TsumCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				2B7DE9DD1D3FA85E00E4F84B /* AppDelegate.swift */,
 				2B7DE9DF1D3FA85E00E4F84B /* ViewController.swift */,
+				2B7DE9EF1D4004E500E4F84B /* TsumCellTableViewCell.swift */,
 				2B7DE9E11D3FA85E00E4F84B /* Main.storyboard */,
 				2B7DE9E41D3FA85E00E4F84B /* Assets.xcassets */,
 				2B7DE9E61D3FA85E00E4F84B /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B7DE9E01D3FA85E00E4F84B /* ViewController.swift in Sources */,
+				2B7DE9F01D4004E600E4F84B /* TsumCellTableViewCell.swift in Sources */,
 				2B7DE9DE1D3FA85E00E4F84B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
